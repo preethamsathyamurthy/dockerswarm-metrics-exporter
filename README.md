@@ -20,6 +20,7 @@ curl -X GET http://localhost:1323
   *  initialize.go (initializes common logger for core package)
   *  dockerFunctions.go (Contains all Docker related functions)
   *  systemFunctions.go (Contains all System related functions)
+*  output (folder contains example output of metrics)  
 
 
 ### Echo Framework General Notes:
@@ -38,4 +39,5 @@ To support this, can be done by adding the below as part of any new project:
    PACKAGE_NAME.initialize(writeLogs)
    ```
    Replace the PACKAGE_NAME with the right package
+
 
